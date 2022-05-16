@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "outDir": "./build",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "sourceMap": true,
+    "typeRoots": ["./types", "node_modules/@types"],
+    "isolatedModules": true,
+    "locale": "ko",
+    "pretty": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "exclude": ["node_modules", "dist", "build"]
+}
