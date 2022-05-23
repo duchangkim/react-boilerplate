@@ -14,4 +14,4 @@ npm i -D css-loader css-minimizer-webpack-plugin html-webpack-plugin mini-css-ex
 npm i -D @types/react @types/react-dom @types/node typescript
 
 // test
-npm install -D jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/jest
+npm install -D jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/jest ts-jest babel-jest jest-environment-jsdom 
